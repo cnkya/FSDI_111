@@ -1,0 +1,27 @@
+##HTTP METHODS
+GET-request representation of a resource for readonly purposes
+
+HEAD- used by network engineers to test network issues (no response body)
+
+POST-used to create a new resource or content and stores it on the server
+
+PUT/PATCH-put is a complete update to a resource on a server/patch is a part update-update only what has changed
+
+Delete-remove a resource on a remote server
+
+CONNECT- trouble shooting connections
+
+OPTIONS- security options taht you need to configure
+
+TRACE-trouble shooting connections
+
+
+##http status codes
+1xx informational response – the request was received, continuing process
+2xx successful – the request was successfully received, understood, and accepted
+3xx redirection – further action needs to be taken in order to complete the request
+4xx client error – the request contains bad syntax or cannot be fulfilled
+5xx server error – the server failed to fulfil an apparently valid request
+
+
+
